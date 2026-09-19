@@ -1,0 +1,19 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Base de datos local (se genera sola al arrancar)
+*.db
+
+# Secretos: NUNCA subir la llave de AWS
+*.pem
+*.ppk
+.env
+
+# Editor
+.vscode/
